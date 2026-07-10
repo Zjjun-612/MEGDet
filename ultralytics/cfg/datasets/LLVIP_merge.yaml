@@ -1,0 +1,18 @@
+# path: /data/DroneVehicle/merge
+train: /data/LLVIP/merge/train/ir/images  # IR图像目录（主要路径，用于标签）
+val: /data/LLVIP/merge/val/ir/images      # IR图像目录（主要路径，用于标签）
+
+# RGB图像目录（辅助路径）
+train_rgb: /data/LLVIP/merge/train/rgb/images
+val_rgb: /data/LLVIP/merge/val/rgb/images
+
+
+# Dataset settings
+channels: 6  # RGB(3) + IR(3) = 6 channels
+
+# 类别名称
+names:
+  0: person
+
+# 类别数量（必需）
+nc: 1

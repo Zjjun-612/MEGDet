@@ -1,0 +1,23 @@
+# path: /data/DroneVehicle/merge
+train: /data/DroneVehicle/merge/train/ir/images  # IR图像目录（主要路径，用于标签）
+val: /data/DroneVehicle/merge/val/ir/images      # IR图像目录（主要路径，用于标签）
+test: /data/DroneVehicle/merge/test/ir/images    # IR图像目录（主要路径，用于标签）
+
+# RGB图像目录（辅助路径）
+train_rgb: /data/DroneVehicle/merge/train/rgb/images
+val_rgb: /data/DroneVehicle/merge/val/rgb/images
+test_rgb: /data/DroneVehicle/merge/test/rgb/images
+
+# Dataset settings
+channels: 6  # RGB(3) + IR(3) = 6 channels
+
+# 类别名称
+names:
+  0: car
+  1: truck
+  2: bus
+  3: van
+  4: freight_car
+
+# 类别数量（必需）
+nc: 5
