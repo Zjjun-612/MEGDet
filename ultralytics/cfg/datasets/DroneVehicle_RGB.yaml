@@ -1,0 +1,11 @@
+path: /data/DroneVehicle/DroneVehicle_RGB
+train: train/images # train images (relative to 'path') 1585 images
+val: val/images # val images (relative to 'path') 199 images
+test: test/images # test images (relative to 'path') 198 images
+
+names:
+  0: car
+  1: truck
+  2: bus
+  3: van
+  4: freight_car
